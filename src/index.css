@@ -19,6 +19,27 @@ header {
   align-items: center;
 }
 
+#avatar-outer {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 15px auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: var(--bgcolor-white);
+  background-image: url(../public/images/nanda3.jfif);
+}
+
 header h1 {
   margin: 0;
 }
@@ -37,7 +58,20 @@ nav a {
   color: white;
   text-decoration: none;
   padding: 10px 20px;
+  margin-bottom: 0;
 }
+
+.navbar-brand:hover,
+.navbar-brand:active {
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: xx-large;
+}
+
+
 
 .container {
   max-width: 800px;
@@ -55,11 +89,16 @@ nav a {
 
 .navbar {
   width: 100%;
+  padding: 0 20px;
 }
 
 @media (max-width: 992px) {
   .card-deck {
     flex-direction: column;
+  }
+
+  #avatar-outer {
+    display: none;
   }
 }
 
