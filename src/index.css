@@ -19,27 +19,6 @@ header {
   align-items: center;
 }
 
-#avatar-outer {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin: 15px auto;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#avatar {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: var(--bgcolor-white);
-  background-image: url(../public/images/nanda3.jfif);
-}
-
 header h1 {
   margin: 0;
 }
@@ -71,20 +50,10 @@ nav a {
   font-size: xx-large;
 }
 
-
-
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 30px;
-}
-
-.project {
-  margin-bottom: 30px;
-}
-
-.project h2 {
-  margin-bottom: 10px;
 }
 
 .navbar {
@@ -92,73 +61,33 @@ nav a {
   padding: 0 20px;
 }
 
+
+
+/* <contact> */
+
+
+/* </contact> */
+
+
+/* <home> */
+
+
+/* </home> */
+
+/* <project-gallery> */
+
+
+/* </project-gallery> */
+
+
+
 @media (max-width: 992px) {
-  .card-deck {
+  .project-gallery {
     flex-direction: column;
   }
 
-  #avatar-outer {
-    display: none;
+  .project {
+    width: 100%;
+    margin-bottom: 1rem;
   }
-}
-
-.contact {
-  padding: 2rem;
-  text-align: center;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-label {
-  margin-bottom: 1rem;
-  text-align: left;
-  width: 100%;
-}
-
-input,
-textarea {
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  width: 100%;
-}
-
-button[type="submit"] {
-  padding: 0.75rem 1.5rem;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.project {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-  text-align: center;
-  background-color: #f2f2f2;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-  margin-bottom: 1rem;
-}
-
-a {
-  margin-bottom: 1rem;
-  color: #333;
-  text-decoration: none;
-}
-
-img {
-  width: 100%;
-  margin-top: 1rem;
-  border-radius: 5px;
 }

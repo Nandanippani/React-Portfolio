@@ -1,33 +1,51 @@
 [
     {
-        "title": "Team-Profile-Generator-Using-OOP",
-        "deployedVersion": "https://github.com/Nandanippani/Team-Profile-Generator-Using-OOP/blob/main/starter/output/team.html",
-        "githubLink": "https://github.com/Nandanippani/Team-Profile-Generator-Using-OOP."
+        "id": 1,
+        "title": "Team Profile Generator",
+        "description": "The Team Profile Generator app assists users in creating team profiles by utilizing the Inquirer library for prompts. Users are able to input information regarding the manager, engineers, and interns. Used OOP techniques",
+        "deployed": "https://nandanippani.github.io/Team-Profile-Generator-Using-OOP/starter/output/team.html",
+        "github": "https://github.com/Nandanippani/Team-Profile-Generator-Using-OOP",
+        "screenshot":"./images/team-generator.png"
     },
     {
-        "title": "ReadmeGenerator-",
-        "deployedVersion": "description",
-        "githubLink": "https://github.com/Nandanippani/ReadmeGenerator"
+        "id": 2,
+        "title": "Readme File Generator",
+        "description": "This project generates readme file using inquirer library.",
+        "deployed": "https://github.com/Nandanippani/ReadmeGenerator/blob/main/generated-README.md",
+        "github": "https://github.com/Nandanippani/ReadmeGenerator",
+        "screenshot":"./images/readme-generator.png"
     },
     {
-        "title": "Weather-Dashboard",
-        "deployedVersion": "https://nandanippani.github.io/Weather-Dashboard/",
-        "githubLink": "https://github.com/Nandanippani/Weather-Dashboard"
+        "id": 3,
+        "title": "Weather Dashboard",
+        "description":"This is a weather application which shows user current and 5 day forecast weather of inputted city. This app gives information such as temperature, wind, humidity.",
+        "deployed": "https://nandanippani.github.io/Weather-Dashboard/",
+        "github": "https://github.com/Nandanippani/Weather-Dashboard",
+        "screenshot":"./images/weather-report.png"
     },
     {
-        "title": "Work-Day-Schedular",
-        "deployedVersion": "https://nandanippani.github.io/Work-Day-Schedular",
-        "githubLink": "https://github.com/Nandanippani/Work-Day-Schedular"
+        "id":4,
+        "title": "Workday Schedular",
+        "description": "The Work Scheduler app enables users to plan their work hours hour by hour. It displays working hours from 9am to 5pm. Users can input their schedule into a text area and save it by clicking the save button.",
+        "deployed": "https://nandanippani.github.io/Work-Day-Schedular",
+        "github": "https://github.com/Nandanippani/Work-Day-Schedular",
+        "screenshot":"./images/scheduler.png"
     },
     {
-        "title": "Password-Generator",
-        "deployedVersion": "https://nandanippani.github.io/Password-Generator/",
-        "githubLink": "https://github.com/Nandanippani/Password-Generator"
+        "id":5,
+        "title": "Password Generator",
+        "description": "The app generates passwords according to the user's preferences for including numbers, special characters, lowercase, and uppercase characters.",
+        "deployed": "https://nandanippani.github.io/Password-Generator/",
+        "github": "https://github.com/Nandanippani/Password-Generator",
+        "screenshot":"./images/passgen.png"
     },
     {
-        "title": "Bootstrap-Portfolio",
-        "deployedVersion": "https://nandanippani.github.io/Bootstrap-Portfolio/",
-        "githubLink": "https://github.com/Nandanippani/Bootstrap-Portfolio"
+        "id":6,
+        "title": "Bootstrap Portfolio",
+        "description": "This app was built utilizing Bootstrap CSS for showcasing projects.",
+        "deployed": "https://nandanippani.github.io/Bootstrap-Portfolio/",
+        "github": "https://github.com/Nandanippani/Bootstrap-Portfolio",
+        "screenshot":"./images/bootstrap-ptf.png"
     }
 
 ]

@@ -5,24 +5,7 @@ import Home from "./components/home";
 import ProjectGallery from "./components/ProjectGallery.js";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
-
-const projects = [
-  {
-    id: 1,
-    title: "Project 1",
-    deployed: "https://project1.com",
-    github: "https://github.com/project1",
-    screenshot: "project1.png"
-  },
-  {
-    id: 2,
-    title: "Project 2",
-    deployed: "https://project2.com",
-    github: "https://github.com/project2",
-    screenshot: "project2.png"
-  },
-  // ...
-];
+import projects from './projects.json';
 
 function App() {
   return (

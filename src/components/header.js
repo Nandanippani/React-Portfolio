@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const styles = {
   bg: {
     backgroundColor: '#555',
@@ -35,16 +34,8 @@ function Header() {
             </li>
           </ul>
         </div>
-        <div id="avatar-outer">
-          <div id="avatar">
-          </div>
-        </div>
       </nav>
     </header>
-
-
-
-
   );
 }
 

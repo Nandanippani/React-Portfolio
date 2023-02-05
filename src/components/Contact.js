@@ -1,8 +1,9 @@
 import React from "react";
+import './contact.css';
 
 function Contact() {
   return (
-    <div>
+    <div class="contact">
       <h2>Contact Information</h2>
       <p>Your email: your-email@example.com</p>
       <p>Your phone: (123) 456-7890</p>

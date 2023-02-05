@@ -1,0 +1,11 @@
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .project-gallery .project-pg {
+    width: 30%;
+    margin: 1rem;
+  }

@@ -1,11 +1,17 @@
 import React from "react";
+import './project.css';
 
 const Project = (props) => (
-  <div>
-    <h3>{props.project.title}</h3>
-    <a href={props.project.deployed}>Deployed</a>
-    <a href={props.project.github}>GitHub</a>
-    <img src={props.project.screenshot} alt={`Screenshot of ${props.project.title}`} />
+  <div class="project">
+    <div class="project-title">{props.project.title}</div>
+    <div class="proj-desc">{props.project.description}</div>
+    <div class="proj-links">
+      <a href={props.project.deployed}>Deployed</a>
+      <a href={props.project.github}>GitHub</a>
+    </div>
+    <div class="proj-scr">
+      <img src={props.project.screenshot} alt={`Screenshot of ${props.project.title}`} />
+    </div>
   </div>
 );
 
