@@ -1,44 +1,53 @@
-import React from 'react';
-import Header from './components/header';
-import Nav from './components/nav';
-import projects from './projects.json';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/header";
+import Home from "./components/home";
+import ProjectGallery from "./components/ProjectGallery.js";
+import Contact from "./components/Contact";
+import Project from "./components/Project";
 
-
-
-
-
-function Project({ title, description, github }) {
-  return (
-    <div>
-      <h2>{title}</h2>
-      <p>{description}</p>
-      <a href={github}>View on Github</a>
-    </div>
-  );
-}
-
-function Content() {
-  return (
-    <div>
-      {projects.map((project) => (
-        <Project
-          key={project.title}
-          title={project.title}
-          description={project.description}
-          github={project.github}
-        />
-      ))}
-    </div>
-  );
-}
+const projects = [
+  {
+    id: 1,
+    title: "Project 1",
+    deployed: "https://project1.com",
+    github: "https://github.com/project1",
+    screenshot: "project1.png"
+  },
+  {
+    id: 2,
+    title: "Project 2",
+    deployed: "https://project2.com",
+    github: "https://github.com/project2",
+    screenshot: "project2.png"
+  },
+  // ...
+];
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Nav />
-      <Content />
-    </div>
+    <>
+
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/projects" element={<ProjectGallery projects={projects} />} />
+          <Route
+            exact
+            path="/projects/:id"
+            render={props => {
+              const project = projects.find(
+                project => project.id === parseInt(props.match.params.id)
+              );
+              return <Project {...props} project={project} />;
+            }}
+          />
+          <Route exact path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+
+    </>
   );
 }
 

@@ -1,17 +1,33 @@
 [
     {
-        "title": "project-1",
-        "description": "description",
-        "github": "github.com"
+        "title": "Team-Profile-Generator-Using-OOP",
+        "deployedVersion": "https://github.com/Nandanippani/Team-Profile-Generator-Using-OOP/blob/main/starter/output/team.html",
+        "githubLink": "https://github.com/Nandanippani/Team-Profile-Generator-Using-OOP."
     },
     {
-        "title": "project-2",
-        "description": "description",
-        "github": "github.com"
+        "title": "ReadmeGenerator-",
+        "deployedVersion": "description",
+        "githubLink": "https://github.com/Nandanippani/ReadmeGenerator"
     },
     {
-        "title": "project-3",
-        "description": "description",
-        "github": "github.com"
+        "title": "Weather-Dashboard",
+        "deployedVersion": "https://nandanippani.github.io/Weather-Dashboard/",
+        "githubLink": "https://github.com/Nandanippani/Weather-Dashboard"
+    },
+    {
+        "title": "Work-Day-Schedular",
+        "deployedVersion": "https://nandanippani.github.io/Work-Day-Schedular",
+        "githubLink": "https://github.com/Nandanippani/Work-Day-Schedular"
+    },
+    {
+        "title": "Password-Generator",
+        "deployedVersion": "https://nandanippani.github.io/Password-Generator/",
+        "githubLink": "https://github.com/Nandanippani/Password-Generator"
+    },
+    {
+        "title": "Bootstrap-Portfolio",
+        "deployedVersion": "https://nandanippani.github.io/Bootstrap-Portfolio/",
+        "githubLink": "https://github.com/Nandanippani/Bootstrap-Portfolio"
     }
+
 ]
