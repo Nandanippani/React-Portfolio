@@ -1,6 +1,6 @@
-# React-Portfolio
+# Portfolio created using ReactJS
 ## Description
-This application shows my portfolio using react showing information such as photo, brief description, front-end projects and contact information.
+This application shows my portfolio using React showing information such as photo, brief description, front-end projects, contact information and PDF resume.
 
 ## Main Page  
 This page shows main page of my portfolio.
@@ -11,6 +11,10 @@ This page shows projets page
 
 This page shows contact page
 ![Alt text](public/images/contact-page.PNG)
+
+This page shows PDF version of my resume
+![Alt text](public/images/resume-page.PNG)
+
 
 ## URL of Deployed Application
 
@@ -23,7 +27,7 @@ This page shows contact page
 N/A
 
 ## Usage
-This project is used to demonstrate ability to use reactjs, html,css and javascript.
+This project is used to demonstrate ability to use ReactJS,  HTML, CSS and JavaScript.
 
 ## Credits
 N/A

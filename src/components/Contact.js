@@ -1,41 +1,26 @@
 import React from "react";
 import './contact.css';
-import { useState } from 'react';
 
-
-
-
-function Contact(props) {
-  const [alert, setAlert] = useState('');
-  const alertMessage=(event)=>{
-    event.preventDefault();
-    setAlert(alert('Thank you for submitting your details'))};
+const Contact = () => {
   return (
-    <div className="contact-header">
-    <div className="contact">
-      <h2 id="contact-info">Contact Information:</h2>
-      <p id="contact-email">Email Id: nandinik4090@gmail.com</p>
-      <p id="contact-phone"> Contact Phone number: +447354209651</p>
+    <div className="contact-container">
+      <div className="contact-info">
+        <h2>Contact</h2>
+        <p>Address: 83 Hag Hill Rise, Taplow SL6 0LT</p>
+        <p>Phone: 07342745183</p>
+        <p>Email: nandanippani@yahoo.com</p>
       </div>
-      <div className="form-field">
-      <form >
-        <label>
-          Name:
-          <input type="text" class="form-control" id="name" placeholder="Enter your name"></input>
-        </label>
-        <label>
-          Email:
-          <input type="email" name="email" />
-        </label>
-        <label>
-          Message:
-          <textarea name="message"></textarea>
-        </label>
-        <button onClick={alertMessage}>Submit</button>
-      </form>
+      <div className="contact-form">
+        <h2>Get in Touch</h2>
+        <form>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message" rows="5"></textarea>
+          <button type="submit" className="bg-primary">Submit</button>
+        </form>
       </div>
     </div>
   );
-}
+};
 
 export default Contact;

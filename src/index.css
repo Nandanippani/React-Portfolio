@@ -61,26 +61,6 @@ nav a {
   padding: 0 20px;
 }
 
-
-
-/* <contact> */
-
-
-/* </contact> */
-
-
-/* <home> */
-
-
-/* </home> */
-
-/* <project-gallery> */
-
-
-/* </project-gallery> */
-
-
-
 @media (max-width: 992px) {
   .project-gallery {
     flex-direction: column;

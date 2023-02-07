@@ -32,6 +32,12 @@ function Header() {
             <li style={styles.hc} class="nav-item">
               <Link to="/contact" class="nav-link">Contact</Link>
             </li>
+            <li style={styles.hc} class="nav-item">
+              <Link to="https://www.linkedin.com/in/nandak4090/" target="_blank" class="nav-link">LinkedIn</Link>
+            </li>
+            <li style={styles.hc} class="nav-item">
+              <Link to="/resume" class="nav-link">Resume</Link>
+            </li>
           </ul>
         </div>
       </nav>
