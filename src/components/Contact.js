@@ -1,6 +1,8 @@
 import React from "react";
 import './contact.css';
 
+
+
 function Contact() {
   return (
     <div className="contact-header">
@@ -10,7 +12,7 @@ function Contact() {
       <p id="contact-phone"> Contact Phone number: +447354209651</p>
       </div>
       <div className="form-field">
-      <form>
+      <form >
         <label>
           Name:
           <input type="text" class="form-control" id="name" placeholder="Enter your name"></input>
