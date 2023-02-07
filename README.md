@@ -17,11 +17,11 @@ This page shows PDF version of my resume
 
 
 ## URL of Deployed Application
-
+https://nandanippani.github.io/react-portfolio/
 
 
 ## URL of Github repository that contains application code
-
+https://github.com/Nandanippani/react-portfolio
 
 ## Installation
 N/A
