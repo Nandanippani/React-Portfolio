@@ -8,6 +8,7 @@ import Project from "./components/Project";
 import projects from './projects.json';
 
 function App() {
+  
   return (
     <>
 

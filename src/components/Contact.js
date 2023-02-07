@@ -1,9 +1,15 @@
 import React from "react";
 import './contact.css';
+import { useState } from 'react';
 
 
 
-function Contact() {
+
+function Contact(props) {
+  const [alert, setAlert] = useState('');
+  const alertMessage=(event)=>{
+    event.preventDefault();
+    setAlert(alert('Thank you for submitting your details'))};
   return (
     <div className="contact-header">
     <div className="contact">
@@ -25,7 +31,7 @@ function Contact() {
           Message:
           <textarea name="message"></textarea>
         </label>
-        <button type="submit">Submit</button>
+        <button onClick={alertMessage}>Submit</button>
       </form>
       </div>
     </div>
