@@ -13,7 +13,7 @@ This page shows contact page
 ![Alt text](public/images/contact-page.PNG)
 
 This page shows PDF version of my resume
-![Alt text](public/images/resume-page.PNG)
+![Alt text](public/images/Resume-page.PNG)
 
 
 ## URL of Deployed Application
