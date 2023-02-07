@@ -3,10 +3,13 @@ import './contact.css';
 
 function Contact() {
   return (
-    <div class="contact">
-      <h2>Contact Information</h2>
-      <p>Your email: your-email@example.com</p>
-      <p>Your phone: (123) 456-7890</p>
+    <div className="contact-header">
+    <div className="contact">
+      <h2 id="contact-info">Contact Information:</h2>
+      <p id="contact-email">Email Id: nandinik4090@gmail.com</p>
+      <p id="contact-phone"> Contact Phone number: +447354209651</p>
+      </div>
+      <div className="form-field">
       <form>
         <label>
           Name:
@@ -22,6 +25,7 @@ function Contact() {
         </label>
         <button type="submit">Submit</button>
       </form>
+      </div>
     </div>
   );
 }

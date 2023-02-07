@@ -1,36 +1,61 @@
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
-  }
-  
-  label {
-    margin-bottom: 1rem;
-    text-align: left;
-    width: 100%;
-  }
-  
-  input,
-  textarea {
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    width: 100%;
-  }
-  
-  button[type="submit"] {
-    padding: 0.75rem 1.5rem;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#contact-info {
+  text-align: center;
+  padding-bottom: 1rem;
+
+}
+
+h2 #contact-info {
+  text-decoration: underline;
+}
+
+#contact-email {
+  text-align: center;
+}
+
+#contact-phone {
+  text-align: center;
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+label {
+  margin-bottom: 1rem;
+  text-align: left;
+  width: 100%;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+button[type="submit"] {
+  padding: 0.75rem 1.5rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
