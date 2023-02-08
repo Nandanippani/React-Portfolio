@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header";
 import Home from "./components/home";
 import ProjectGallery from "./components/ProjectGallery.js";
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
 
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/resume" element={<PDFViewer filePath='./cv/resume.pdf' />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
     </>
   );
